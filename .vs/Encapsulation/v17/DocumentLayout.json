@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\arthu\\source\\repos\\Encapsulation\\",
+  "WorkspaceRootPath": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulation\\Encapsulation\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Mymath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\Mymath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\mediatheque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\mediatheque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +30,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Object.h",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Object.h",
+              "RelativeDocumentMoniker": "Encapsulation\\Object.h",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Object.h",
+              "RelativeToolTip": "Encapsulation\\Object.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-13T21:13:31.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mymath.h",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Mymath.h",
+              "RelativeDocumentMoniker": "Encapsulation\\Mymath.h",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Mymath.h",
+              "RelativeToolTip": "Encapsulation\\Mymath.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-13T19:50:41.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mediatheque.cpp",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.cpp",
+              "RelativeDocumentMoniker": "Encapsulation\\mediatheque.cpp",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.cpp",
+              "RelativeToolTip": "Encapsulation\\mediatheque.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T19:49:25.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mediatheque.h",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.h",
+              "RelativeDocumentMoniker": "Encapsulation\\mediatheque.h",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.h",
+              "RelativeToolTip": "Encapsulation\\mediatheque.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-13T19:46:10.299Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulation\\Encapsulation\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\main.cpp",
               "RelativeDocumentMoniker": "Encapsulation\\main.cpp",
-              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulation\\Encapsulation\\main.cpp",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\main.cpp",
               "RelativeToolTip": "Encapsulation\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-13T14:32:23.652Z",
               "EditorCaption": ""
