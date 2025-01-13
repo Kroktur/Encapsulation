@@ -2,7 +2,7 @@
 #include "Mymath.h"
 int main()
 {
-	Client client;
+	IClient client;
 	NodeList list;
 	ClientNode* myclient = new ClientNode(&client );
 	list.PushBack(myclient);
