@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\arthu\\source\\repos\\Encapsulation\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulation\\Encapsulation\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulation\\Encapsulation\\main.cpp",
+              "RelativeDocumentMoniker": "Encapsulation\\main.cpp",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulation\\Encapsulation\\main.cpp",
+              "RelativeToolTip": "Encapsulation\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T14:32:23.652Z",
+              "EditorCaption": ""
             }
           ]
         },
