@@ -154,7 +154,7 @@ public:
 	void changeStudio(game_Studio newstudio) { m_studio = newstudio; }
 	game_Studio& getStudio() { return m_studio; }
 	//Pegi
-	void changepegi(int newpegi) { m_pegi = newpegi; }
+	void changepegi(int newpegi) { m_pegi = newpegi;}
 	int& getAgepegi() { return m_pegi; }
 	//gender
 	void changeGender(game_gender newgender) { m_gender = newgender; }
