@@ -3,22 +3,23 @@
 class Node
 {
 public:
-	Node() :Previous(nullptr), Next(nullptr) {}
+	Node() :Previous(nullptr), Next(nullptr), m_object(nullptr){}
 	virtual ~Node(){}
+	Object* getObject(){return m_object;}
 	Node* Previous;
 	Node* Next;
+protected:
+	Object* m_object;
 };
 class ClientNode : public Node
 {
 public:
-	ClientNode(IClient* client):Client(client){}
-	IClient* Client;
+	ClientNode(Client* client){ m_object = client;}
 };
 class MediaNode : public Node
 {
 public:
-	MediaNode(IMedia* media) :Media(media) {}
-	IMedia* Media;
+	MediaNode(Media* media)  { m_object = media; }
 };
 
 
@@ -28,6 +29,20 @@ public:
 	NodeList()
 	{
 		//set Ancre
+		Ancre.Next = &Ancre;
+		Ancre.Previous = &Ancre;
+	}
+	~NodeList()
+	{
+		if (isEmpty())
+			return;
+		Node* currentnode = Ancre.Next;
+		while (currentnode != &Ancre)
+		{
+			Node* next = currentnode->Next;
+			delete currentnode;
+			currentnode = next;
+		}
 		Ancre.Next = &Ancre;
 		Ancre.Previous = &Ancre;
 	}
