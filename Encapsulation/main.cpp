@@ -19,6 +19,9 @@ int main()
 		auto book = static_cast<Book*> (mediamodif);
 
 	}
+
+
+
 	std::cout << "hello world" << std::endl;
 	return 0;
 }
