@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\mediatheque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,12 +22,17 @@
       "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\Mymath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B0CDBF8C-310D-41F3-99CE-7D5102B7A355}|Encapsulation\\Encapsulation.vcxproj|solutionrelative:Encapsulation\\mediatheque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\throw_bad_alloc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +50,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "xstring",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "ViewState": "AgIAAKQCAAAAAAAAAAAnwLoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-15T20:12:55.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "new_scalar.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp",
+              "ViewState": "AgIAABoAAAAAAAAAAAAEwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-15T20:03:50.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "throw_bad_alloc.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAEwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-15T20:03:46.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Object.h",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Object.h",
               "RelativeDocumentMoniker": "Encapsulation\\Object.h",
-              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Object.h",
-              "RelativeToolTip": "Encapsulation\\Object.h",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAGcAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Object.h*",
+              "RelativeToolTip": "Encapsulation\\Object.h*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-13T21:13:31.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "mediatheque.cpp",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.cpp",
               "RelativeDocumentMoniker": "Encapsulation\\mediatheque.cpp",
@@ -59,17 +110,18 @@
               "RelativeToolTip": "Encapsulation\\mediatheque.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T19:49:25.048Z"
+              "WhenOpened": "2025-01-13T19:49:25.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\main.cpp",
               "RelativeDocumentMoniker": "Encapsulation\\main.cpp",
               "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\main.cpp",
               "RelativeToolTip": "Encapsulation\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-13T14:32:23.652Z",
               "EditorCaption": ""
@@ -77,27 +129,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "mediatheque.h",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.h",
+              "RelativeDocumentMoniker": "Encapsulation\\mediatheque.h",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.h",
+              "RelativeToolTip": "Encapsulation\\mediatheque.h",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAnwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-13T19:46:10.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "delete_scalar.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAEwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-15T19:33:44.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Mymath.h",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Mymath.h",
               "RelativeDocumentMoniker": "Encapsulation\\Mymath.h",
               "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\Mymath.h",
               "RelativeToolTip": "Encapsulation\\Mymath.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-13T19:50:41.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "mediatheque.h",
-              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.h",
-              "RelativeDocumentMoniker": "Encapsulation\\mediatheque.h",
-              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Encapsulationproject\\Encapsulation\\mediatheque.h*",
-              "RelativeToolTip": "Encapsulation\\mediatheque.h*",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAkwG0AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T19:46:10.299Z",
               "EditorCaption": ""
             }
           ]

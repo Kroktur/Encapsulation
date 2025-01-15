@@ -7,9 +7,9 @@
 class mediatheque
 {
 public:
-	void addclient(ClientNode* client)
+	void addclient(std::string& name, std::string& firstname, int& age, std::string& address, std::string& phoneNumber)
 	{
-		m_clientlist.PushBack(client);
+		m_clientlist.PushBack(new ClientNode(new Client{ name ,firstname,age,address, phoneNumber }));
 	}
 	NodeList Findclientsbyname(std::string& name)
 	{
@@ -47,9 +47,12 @@ public:
 	NodeList Findclientsbyaddress(std::string& address)
 	{
 		NodeList tmplist;
+		int size = m_clientlist.size();
 		for (auto i = 0; i < m_clientlist.size(); ++i)
 		{
-			auto myclient = static_cast<Client*>(m_clientlist[i]->getObject());
+			auto myclient = dynamic_cast<Client*>(m_clientlist[i]->getObject());
+			std::string titi = myclient->getaddress();
+			int tralala = 0;
 			if (myclient->getaddress() == address)
 				tmplist.PushBack(m_clientlist[i]);
 		}
@@ -66,6 +69,18 @@ public:
 		}
 		return tmplist;
 	}
+	
+	void showclients(NodeList& list)
+	{
+		int toto = list.size();
+		for (auto i = 0; i < list.size(); ++i)
+			showclient(static_cast<ClientNode*>(list[i]));
+	}
+	void addBook(std::string Title, std::string& ISBN)
+	{
+		m_medialist.PushBack(new MediaNode(new Book{ Title ,ISBN}));
+	}
+private:
 	void showclient(ClientNode* client)
 	{
 		auto myclient = static_cast<Client*>(client->getObject());
@@ -78,16 +93,6 @@ public:
 		std::cout << myclient->getphoneNumber() << std::endl;
 		//
 	}
-	void showclients(NodeList list)
-	{
-		for (auto i = 0; i < list.size(); ++i)
-			showclient(static_cast<ClientNode*>(list[i]));
-	}
-	void addBook(std::string Title, std::string& ISBN)
-	{
-		m_medialist.PushBack(new MediaNode(new Book{ Title ,ISBN}));
-	}
-private:
 	//vecteur de client
 	NodeList m_clientlist;
 	//vecteur de mediat
@@ -96,33 +101,49 @@ private:
 class bibliothecaire
 {
 public:
-	bibliothecaire(mediatheque Mediatheque): m_mediatheque(Mediatheque){}
+	bibliothecaire(mediatheque* Mediatheque): m_mediatheque(Mediatheque){}
 	void CreateClientAccount(std::string name, std::string firstname, int age, std::string address, std::string phoneNumber)
 	{
 		if(!Clientalereadyexist(name, firstname, age, address, phoneNumber))
-		m_mediatheque.addclient(new ClientNode(new Client{ name ,firstname,age,address, phoneNumber }));
+		m_mediatheque->addclient( name ,firstname,age,address, phoneNumber );
 	}
-	void showclientbyname(std::string& name)
+	void showclientbyname(std::string name)
 	{
-		auto myclientlist = m_mediatheque.Findclientsbyname(name);
-		m_mediatheque.showclients(myclientlist);
+		auto myclientlist = m_mediatheque->Findclientsbyname(name);
+		m_mediatheque->showclients(myclientlist);
 	}
-	void showclientbyfirs(std::string& name)
+	void showclientbyfirstname(std::string firstname)
 	{
-		auto myclientlist = m_mediatheque.Findclientsbyname(name);
-		m_mediatheque.showclients(myclientlist);
+		auto myclientlist = m_mediatheque->Findclientsbyname(firstname);
+		m_mediatheque->showclients(myclientlist);
 	}
+	void showclientbyage(int& age)
+	{
+		auto myclientlist = m_mediatheque->Findclientsbyage(age);
+		m_mediatheque->showclients(myclientlist);
+	}
+	void showclientbyaddress(std::string address)
+	{
+		auto myclientlist = m_mediatheque->Findclientsbyaddress(address);
+		m_mediatheque->showclients(myclientlist);
+	}
+	void showclientbyphoneNumber(std::string phoneNumber)
+	{
+		auto myclientlist = m_mediatheque->FindclientsbyphoneNumber(phoneNumber);
+		m_mediatheque->showclients(myclientlist);
+	}
+
+private:
 	bool Clientalereadyexist(std::string& name, std::string& firstname, int& age, std::string& address, std::string& phoneNumber)
 	{
-		if (m_mediatheque.Findclientsbyname(name).size() == 0
-			&& m_mediatheque.Findclientsbyfirstname(firstname).size() == 0
-			&& m_mediatheque.Findclientsbyage(age).size() == 0
-			&& m_mediatheque.Findclientsbyaddress(address).size() == 0
-			&& m_mediatheque.FindclientsbyphoneNumber(phoneNumber).size() == 0)
+		if (m_mediatheque->Findclientsbyname(name).size() == 0
+			|| m_mediatheque->Findclientsbyfirstname(firstname).size() == 0
+			|| m_mediatheque->Findclientsbyage(age).size() == 0
+			|| m_mediatheque->Findclientsbyaddress(address).size() == 0
+			|| m_mediatheque->FindclientsbyphoneNumber(phoneNumber).size() == 0)
 			return false;
 		else
-			return true; 
+			return true;
 	}
-private:
-	mediatheque m_mediatheque;
+	mediatheque* m_mediatheque;
  };

@@ -55,34 +55,32 @@ public:
 		,m_address(address)
 		,m_phoneNumber(phoneNumber)
 	{m_type = Client_type;}
-	~Client() 
-	{ 
-		delete this;
-	}
+
 	//implementation
 	object_type gettype() override{return m_type;}
 	//name
-	void changename(std::string& newname){m_name = newname;}
-	std::string& getname(){return m_name;}
+	void changename(std::string newname){m_name = newname;}
+	std::string getname(){return m_name;}
 	//firstname
-	void changefirstname(std::string& newfirstname){m_firstname = newfirstname;}
-	std::string& getfirstname(){return m_firstname;}
+	void changefirstname(std::string newfirstname){m_firstname = newfirstname;}
+	std::string getfirstname(){return m_firstname;}
 	//age
-	void changeage(int& newage){m_age = newage;}
-	int& getage(){return m_age;}
+	void changeage(int newage){m_age = newage;}
+	int getage(){return m_age;}
 	//address
-	void changeaddress(std::string& newaddress) { m_address = newaddress; }
-	std::string& getaddress() { return m_address; }
+	void changeaddress(std::string newaddress) { m_address = newaddress; }
+	std::string getaddress() { return m_address; }
 	//phoneNumber
-	void changephoneNumber(std::string& newphoneNumber) { m_phoneNumber = newphoneNumber; }
-	std::string& getphoneNumber() { return m_phoneNumber; }
+	void changephoneNumber(std::string newphoneNumber) { m_phoneNumber = newphoneNumber; }
+	std::string getphoneNumber() { return m_phoneNumber; }
 private:
-	std::string& m_name;
-	std::string& m_firstname;
-	int& m_age;
-	std::string& m_address;
-	std::string& m_phoneNumber;
+	std::string m_name;
+	std::string m_firstname;
+	int m_age;
+	std::string m_address;
+	std::string m_phoneNumber;
 };
+
 class Media :public Object
 {
 public:
@@ -101,7 +99,7 @@ public:
 class Book : public Media
 {
 public:
-	Book(std::string Title, std::string ISBN) :m_ISBN(ISBN) { m_mediatype = book;  m_title = Title; }
+	Book(std::string& Title, std::string& ISBN) :m_ISBN(ISBN) { m_mediatype = book;  m_title = Title; }
 	//implementation
 	Mediatype getMediatype() override { return m_mediatype; }
 	std::string& getTitle() override { return m_title; }
@@ -114,12 +112,12 @@ public:
 	void changeISBN(std::string& newTitle) { m_ISBN = newTitle; }
 	std::string& getISBN() { return m_ISBN; }
 private:
-	std::string m_ISBN;
+	std::string& m_ISBN;
 };
 class Film : public Media
 {
 public:
-	Film(std::string Title, Film_Support support , int agerestriction) :m_support(support), m_agerestriction(agerestriction){ m_mediatype = film;  m_title = Title; }
+	Film(std::string& Title, Film_Support& support , int& agerestriction) :m_support(support), m_agerestriction(agerestriction){ m_mediatype = film;  m_title = Title; }
 	//implementation
 	Mediatype getMediatype() override { return m_mediatype; }
 	std::string& getTitle() override { return m_title; }
@@ -135,13 +133,13 @@ public:
 	void changeAgeRestriction(int newrestriction) { m_agerestriction = newrestriction; }
 	int& getAgeRestriction() { return m_agerestriction; }
 private:
-	Film_Support m_support;
-	int m_agerestriction;
+	Film_Support& m_support;
+	int& m_agerestriction;
 };
-class Game : public Media
+class VideoGame : public Media
 {
 public:
-	Game(std::string Title, game_Studio studio, int Pegi, game_gender gender) :m_studio(studio), m_pegi(Pegi), m_gender(gender){ m_mediatype = game;  m_title = Title; }
+	VideoGame(std::string& Title, game_Studio& studio, int& Pegi, game_gender& gender) :m_studio(studio), m_pegi(Pegi), m_gender(gender){ m_mediatype = game;  m_title = Title; }
 	//implementation
 	Mediatype getMediatype() override { return m_mediatype; }
 	std::string& getTitle() override { return m_title; }
@@ -160,7 +158,7 @@ public:
 	void changeGender(game_gender newgender) { m_gender = newgender; }
 	game_gender& getGender() { return m_gender; }
 private:
-	game_Studio m_studio;
-	int m_pegi;
-	game_gender m_gender;
+	game_Studio& m_studio;
+	int& m_pegi;
+	game_gender& m_gender;
 };

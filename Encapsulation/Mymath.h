@@ -26,7 +26,7 @@ public:
 class NodeList
 {
 public:
-	NodeList()
+	NodeList():m_size(0)
 	{
 		//set Ancre
 		Ancre.Next = &Ancre;
@@ -34,7 +34,7 @@ public:
 	}
 	~NodeList()
 	{
-		if (isEmpty())
+		/*if (isEmpty())
 			return;
 		Node* currentnode = Ancre.Next;
 		while (currentnode != &Ancre)
@@ -44,7 +44,7 @@ public:
 			currentnode = next;
 		}
 		Ancre.Next = &Ancre;
-		Ancre.Previous = &Ancre;
+		Ancre.Previous = &Ancre;*/
 	}
 	void PushBack(Node* node)
 	{
@@ -55,7 +55,7 @@ public:
 		node->Previous = lastpreviousnode;
 		node->Next = &Ancre;
 		Ancre.Previous = node;
-
+		++m_size;
 	}
 	void PushFront(Node* node)
 	{
@@ -66,27 +66,29 @@ public:
 		node->Next = lastnextnode;
 		node->Previous = &Ancre;
 		Ancre.Next = node;
+		++m_size;
 	}
 	bool isEmpty()
 	{
 
 		return (Ancre.Next == &Ancre && Ancre.Previous == &Ancre);
 	}
-	int size()
+	int& size()
 	{
-		//not obligatory but more understandable
-		if (isEmpty())
-			return 0;
+		////not obligatory but more understandable
+		//if (isEmpty())
+		//	return 0;
 
-		Node* curentnode = Ancre.Next;
-		int count = 0;
-		//iterate over the container and increment count
-		while (curentnode != &Ancre)
-		{
-			++count;
-			curentnode = curentnode->Next;
-		}
-		return count;
+		//Node* curentnode = Ancre.Next;
+		//int count = 0;
+		////iterate over the container and increment count
+		//while (curentnode != &Ancre)
+		//{
+		//	++count;
+		//	curentnode = curentnode->Next;
+		//}
+		//return count;
+		return m_size;
 	}
 	void erase(Node* node)
 	{
@@ -95,7 +97,7 @@ public:
 		// supress the node
 		delete node;
 		node = nullptr;
-
+		--m_size;
 	}
 	Node* operator[](int index)
 	{
@@ -110,4 +112,5 @@ public:
 	}
 private:
 	Node Ancre;
+	int m_size;
 };
